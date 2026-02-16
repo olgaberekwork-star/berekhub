@@ -407,9 +407,11 @@
         <!-- Велком период и кнопка подписки -->
         <!-- Кнопка продления подписки -->
         <div style="margin: 0 20px 20px;">
-            <button style="width: 100%; background: linear-gradient(135deg, #FF6B00, #FF8C00); color: #000; border: none; padding: 12px; border-radius: 12px; font-weight: 600; font-size: 14px; cursor: pointer;">
-                💳 Продлить подписку
-            </button>
+            <a href="https://berekclub.ru/club_berekhub_" target="_blank" style="text-decoration: none;">
+                <button style="width: 100%; background: linear-gradient(135deg, #FF6B00, #FF8C00); color: #000; border: none; padding: 12px; border-radius: 12px; font-weight: 600; font-size: 14px; cursor: pointer;">
+                    💳 Продлить подписку
+                </button>
+            </a>
         </div>
 
 <!-- Счетчик -->
@@ -477,7 +479,7 @@
             <div class="section-title">
                 <span>📚</span> Библиотека знаний
             </div>
-            <a href="https://t.me/c/3232406873/37" target="_blank" style="text-decoration: none;">
+            <a href="https://t.me/c/3232406873/116" target="_blank" style="text-decoration: none;">
                 <div style="background: rgba(255, 107, 0, 0.1); border: 1px solid #FF6B00; border-radius: 12px; padding: 15px; margin-bottom: 20px; text-align: center; cursor: pointer;">
                     <div style="font-size: 16px; color: #FF6B00; font-weight: 700; letter-spacing: 1px;">📅 ПРОГРАММА МЕСЯЦА</div>
                 </div>
@@ -526,12 +528,28 @@
                 </a>
             </div>
 
-            <div class="list-item">
+            <div class="list-item" onclick="toggleSubmenu('money-submenu')" style="cursor: pointer;">
                 <div class="list-icon">💰</div>
                 <div class="list-content">
                     <div class="list-title">Деньги и продажи</div>
                     <div class="list-subtitle">Монетизация, средний чек, воронки. Интеграция с Продамус</div>
                 </div>
+                <div class="list-badge">ОТКРЫТО</div>
+                <div class="list-arrow" id="money-arrow" style="opacity: 1;">▼</div>
+            </div>
+            <div id="money-submenu" class="submenu">
+                <a href="https://t.me/c/3232406873/114" target="_blank" style="text-decoration: none; color: inherit;">
+                    <div class="submenu-item">
+                        <div class="submenu-item-title">Платежная система для : сз, ИП, ООО</div>
+                        <div class="submenu-item-subtitle">Выбор платёжной системы под разные формы</div>
+                    </div>
+                </a>
+                <a href="https://t.me/c/3232406873/115" target="_blank" style="text-decoration: none; color: inherit;">
+                    <div class="submenu-item">
+                        <div class="submenu-item-title">Материалы к эфиру</div>
+                        <div class="submenu-item-subtitle">Дополнительные материалы по монетизации</div>
+                    </div>
+                </a>
             </div>
 
             <div class="list-item" onclick="toggleSubmenu('funnels-submenu')" style="cursor: pointer;">
